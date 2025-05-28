@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/78a0bbec-734e-4871-9d7e-c9821da1982c)
+
 This repository contains Python implementations of various digital signal processing tasks including PCM, delta modulation, companding, DPCM for images, and a speech-to-text system using MFCC and SVM.
 
 ## 📌 Contents

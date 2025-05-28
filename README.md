@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/78a0bbec-734e-4871-9d7e-c9821da1982c)
 This repository contains Python implementations of various digital signal processing tasks including PCM, delta modulation, companding, DPCM for images, and a speech-to-text system using MFCC and SVM.
 
 ## 📌 Contents
@@ -17,6 +17,7 @@ This repository contains Python implementations of various digital signal proces
   - SNR trends with varying quantization levels
 
 > **Key Insight:** SNR improves with higher quantization levels. Noise effects are more prominent at lower levels. μ-law companding helps preserve low-amplitude signals better.
+![image](https://github.com/user-attachments/assets/2eb36507-3a3f-4d26-85a9-5f289e538d4e)
 
 ---
 
@@ -35,6 +36,7 @@ This repository contains Python implementations of various digital signal proces
   - BER and MSE comparisons highlight ADM’s adaptability.
 
 > **Key Insight:** Adaptive modulation improves tracking performance on signals with varying slopes, especially speech.
+![image](https://github.com/user-attachments/assets/748bdadf-da9b-43d5-8d32-23293bb729ce)
 
 ---
 
@@ -52,6 +54,8 @@ This repository contains Python implementations of various digital signal proces
   - **Uniform SNR:** 43.44 dB
 
 > **Key Insight:** μ-law greatly improves SNR by compressing dynamic range before quantization. A-law requires review for correctness.
+> ![image](https://github.com/user-attachments/assets/d866753e-12dc-4952-a6a1-4f90bd9451e7)
+
 
 ---
 
@@ -70,6 +74,7 @@ This repository contains Python implementations of various digital signal proces
   - DPCM offers better visual quality with the same bit-rate.
 
 > **Key Insight:** DPCM leverages signal redundancy, offering better performance at fixed bit depth compared to PCM.
+![image](https://github.com/user-attachments/assets/1840083f-9ed6-4024-bdc6-3a4bbb60cf49)
 
 ---
 
@@ -86,6 +91,7 @@ This repository contains Python implementations of various digital signal proces
   - **Confusion Matrix:** High accuracy across all digits
 
 > **Key Insight:** Even with low-bitrate encoding like delta modulation, robust classification is possible with MFCC + SVM.
+![image](https://github.com/user-attachments/assets/ec238544-66de-4621-8e81-34f28068e8f3)
 
 ---
 
